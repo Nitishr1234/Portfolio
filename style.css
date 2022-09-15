@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+.logo {
+  /* margin: 2rem 2rem; */
+  font-size: 20px;
+}
+h1 {
+  color: #eb4a4a;
+  position: relative;
+  top: 20px;
+  left: 40px;
+}
+.logo span {
+  color: #fff;
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+}
+.nav li {
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  bottom: 80px;
+  left: 40rem;
+  margin-top: 50px;
+}
+.nav li a {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+.nav li a:hover {
+  border-radius: 5px;
+  background-color: #eb4a4a;
+  cursor: pointer;
+}
+.container {
+  background: url(img/background.jpg);
+  height: 100vh;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-box {
+  height: 60vh;
+  width: 30vw;
+  position: relative;
+  left: 10vw;
+  top: 50px;
+}
+h4 {
+  font-size: 20px;
+  color: #eb4a4a;
+  position: relative;
+  top: 53px;
+  left: 20px;
+}
+.main-box h2 {
+  font-size: 50px;
+  position: relative;
+  left: 35px;
+  top: 50px;
+  color: #fff;
+}
+.main-box h2 span {
+  font-size: 70px;
+  color: #eb4a4a;
+  font-family: "Kaushan Script", cursive;
+}
+
+.main-box h5 {
+  position: relative;
+  top: 60px;
+  left: 45px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #eb4a4a;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 100px;
+  left: 40px;
+}
+.btn:hover {
+  border: 1px solid #eb4a4a;
+  background-color: transparent;
+}
+.container2 {
+  height: 90vh;
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  background-color: #010413;
+}
+.box1 img {
+  position: relative;
+  left: 20vw;
+  top: 7.5vh;
+  border-radius: 15px;
+  height: 500px;
+}
+.box1 {
+  width: 50%;
+}
+.box1 h1 {
+  font-size: 50px;
+  position: relative;
+  top: 40px;
+  color: #fff;
+}
+.box1 h2 {
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  left: 40px;
+  color: #eb4a4a;
+  font-family: "Open Sans", sans-serif;
+}
+.box1 h3 {
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 40px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.5;
+}
+.box1 h5 {
+  font-size: 20px;
+  position: relative;
+  top: 120px;
+  left: 40px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: 50px;
+}
+.btn1 {
+  padding: 14px 40px;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  font-weight: 500;
+  background-color: #eb4a4a;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+.btn1:hover {
+  border: 1px solid #eb4a4a;
+  background-color: transparent;
+}
+.container3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #010413;
+}
+.container3 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+}
+.container3 h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #eb4a4a;
+  position: relative;
+  top: 45px;
+  left: 40px;
+}
+.sbox {
+  display: flex;
+  position: relative;
+  top: 130px;
+}
+.box {
+  width: 23vw;
+  height: 60vh;
+  margin-left: 80px;
+  position: relative;
+  left: 100px;
+  background-color: rgb(50, 49, 49);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.box img {
+  position: relative;
+  top: 40px;
+  left: 130px;
+}
+.box h3 {
+  font-size: 30px;
+  position: relative;
+  top: 70px;
+  text-align: center;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.box h1 {
+  font-size: 16px;
+  position: relative;
+  top: 90px;
+  left: 7px;
+  line-height: 40px;
+  opacity: 0.5;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+.box:hover {
+  transform: scale(1.01) translateY(-5px);
+  border-top: 5px solid #eb4a4a;
+  transition: all 0.5s ease-in-out;
+}
+.box:hover h3 {
+  color: #eb4a4a;
+}
+.box:hover h1 {
+  color: #fff;
+}
+.container4 {
+  height: 175vh;
+  width: 100%;
+  background-color: #010413;
+}
+.container4 h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+.container4 h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #eb4a4a;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+.grid-box {
+  height: 65vh;
+  width: 37vw;
+  padding: 30px;
+  margin: 40px;
+  position: relative;
+  top: 70px;
+  left: 170px;
+  background-color: rgb(50, 49, 49);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.grid-box img {
+  height: 45vh;
+  border-radius: 30px;
+  margin-left: 35px;
+}
+.grid-box h3 {
+  font-size: 22px;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin: 20px;
+}
+.grid-box span {
+  font-size: 23px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-bottom: 50px;
+  position: relative;
+  left: 10px;
+}
+.grid-box:hover {
+  background: #eb4a4a;
+  cursor: pointer;
+}
+.container5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #010413;
+  display: flex;
+}
+.contact-box {
+  height: 70vh;
+  width: 35%;
+  position: relative;
+  top: 90px;
+  left: 200px;
+}
+.contact-box h1 {
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+.contact-box h2 {
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  color: #eb4a4a;
+  position: relative;
+  top: 110px;
+  left: 20px;
+  text-align: center;
+}
+.contact-box h3 {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  position: relative;
+  top: 130px;
+  left: 150px;
+  line-height: 30px;
+  opacity: 0.5;
+}
+.contact-list {
+  margin-top: 100px;
+  margin-left: 130px;
+  text-decoration: none;
+}
+.contact-list h4 {
+  font-size: 20px;
+  line-height: 35px;
+  color: #fff;
+  opacity: 0.5;
+  font-family: "Quicksand", sans-serif;
+}
+form {
+  position: relative;
+  top: 50px;
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 18px;
+  background: #12141c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 18px;
+  background: #12141c;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+.send {
+  font-size: 17px;
+  font-weight: 500;
+  background: #eb4a4a;
+  color: #fff;
+  width: 190px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+.contact-icon {
+  display: inline;
+  position: relative;
+  top: 70px;
+  left: 130px;
+  transition: all 0.5s ease-in-out;
+}
+.contact-icon a img {
+  height: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.footer h3 {
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  top: 93vh;
+  text-align: center;
+  right: 550px;
+}
